@@ -1,0 +1,393 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;    
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    
+}
+
+
+body {
+    background-color: #1a1a1a;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 0px; 
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+/* Intro */
+section .intro {
+    padding: 40px 4%;
+    position: relative; 
+}
+
+.intro .art img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+
+
+section .intro .art::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.titulo {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 10;
+}
+
+.titulo h1 {
+    font-size: 120px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: color #000 10px;;
+}
+
+.titulo span {
+    color: #b90000;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+/* Cabeçalho */
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 4%;
+    background: #0a0a0a;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover {
+    color: #f27979;
+    transform: scale(1.2);
+    transition: 0.7s;
+    text-decoration: underline 1px;
+    color: #f27979;
+    text-decoration: underline;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-art button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 450;
+    background-color: #fd0606;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header .btn-art button:hover {
+    box-shadow: 0px 0px 12px #ff57578e;
+}
+
+/** Cabeçalho **/
+section.cabecalho {
+    padding: 40px 4%;
+}
+
+section.cabecalho .flex {
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.cabecalho h1 span {
+    font-weight: 500;
+    color: #ff3434;
+}
+
+.cabecalho p {
+    font-size: 18px;
+    color: #ffffffd7;
+}
+
+/*divisor 1*/
+.divisor {
+        height: 5px;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%; 
+        background-color: #ffffff;
+    }
+
+/*Projeto*/
+
+section.projeto {
+    padding: 40px 4%;
+    background-color: #2727272b; /* Cor azul */
+}
+
+section.projeto .flex .txt-information1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+.projeto h1{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.projeto h1 span {
+    color: #ff1d1d;
+}
+
+.projeto p{
+    font-size: 18px;
+    color: #ffffffd7;
+    font-weight: 400;
+}
+
+.projeto .space{
+    padding: 15px;
+}
+
+.projeto h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*Divisor 2*/
+
+/*Aqui que começa o inferno*/
+
+section.disco {
+    padding: 40px 4%;
+    background-color: #000000a1;
+}
+
+section.disco .flex {
+    align-items: flex;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+.disco h3{
+    font-size: 35px;
+    color: #ff3434;
+    font-weight: 400;
+}
+
+.disco p{
+    font-size: 18px;
+    color: #fff;
+}
+
+/*video*/
+
+section.disco .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.disco .videone video {
+    border-radius: 10px; 
+    max-width: 400px; 
+    height: auto; 
+}
+
+/*Parte 2*/
+
+section.xcom{
+    padding: 40px 4%;
+    background-color: #2323231b;
+}
+
+section.xcom .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+section.xcom .txt-pj2{
+    margin-left: 20px ;
+}
+.xcom h3{
+    font-size: 35px;
+    color: #fd1e1e;
+    font-weight: 400;
+}
+
+.xcom p{
+    font-size: 18px;
+    color: #fff;
+}
+
+section.xcom .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.xcom .videotwo video {
+    border-radius: 10px;
+    max-width: 400px;
+    height: auto;
+}
+
+/*Video 03*/
+
+section.kenga{
+    padding: 40px 4%;
+    background-color: #000000a1;
+}
+
+section.kenga .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+section.kenga .txt-pj3{
+    margin-left: 20px ;
+}
+
+.kenga h3{
+    font-size: 35px;
+    color: #ff3434;
+    font-weight: 400;
+}
+
+.kenga p{
+    font-size: 18px;
+    color: #fff;
+}
+
+section.kenga .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.kenga .videothree video {
+    border-radius: 10px; 
+    max-width: 400px; 
+    height: auto; 
+}
+
+/*Sobre nos rapa*/
+
+section.us{
+    padding: 40px 4%;
+}
+
+section.us .flex{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+.us h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.us span{
+    color: #fd1e1e;
+    text-decoration: underline;
+}
+
+.us h2{ 
+    text-shadow: 0px 0px 10px #0f8000;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4bff63;
+}
+
+.us p{
+    font-size: 25px;
+    color: #fff;
+    margin: 40px 0%;
+    font-weight: 400;
+}
+
+.us img {
+    max-width: 350px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+}
