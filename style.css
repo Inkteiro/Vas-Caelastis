@@ -7,8 +7,7 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}
-
+} 
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
@@ -25,10 +24,6 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     margin-top: 0px; 
-}
-
-h1 {
-    margin-bottom: 50px;
 }
 
 /* Intro */
@@ -160,7 +155,7 @@ section.cabecalho .flex {
 }
 
 .cabecalho p {
-    font-size: 18px;
+    font-size: 22px;
     color: #ffffffd7;
 }
 
@@ -172,12 +167,13 @@ section.cabecalho .flex {
         margin-right: 30%; 
         background-color: #ffffff;
     }
-
+.dividendo {
+    margin: 40px;
+}
 /*Projeto*/
 
 section.projeto {
     padding: 40px 4%;
-    background-color: #2727272b; /* Cor azul */
 }
 
 section.projeto .flex .txt-information1{
@@ -199,7 +195,7 @@ section.projeto .flex .txt-information1{
 }
 
 .projeto p{
-    font-size: 18px;
+    font-size: 22px;
     color: #ffffffd7;
     font-weight: 400;
 }
@@ -241,7 +237,7 @@ section.disco .flex {
 }
 
 .disco p{
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -285,7 +281,7 @@ section.xcom .txt-pj2{
 }
 
 .xcom p{
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -328,7 +324,7 @@ section.kenga .txt-pj3{
 }
 
 .kenga p{
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -390,4 +386,153 @@ section.us .flex{
     display: block; 
     margin: 20px auto; 
     border-radius: 10px; 
+}
+
+
+/*parte 2*/
+section.us2{
+    padding: 40px 4%;
+    background-color:#0000005e;
+}
+
+section.us2 .flex{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+.us2 h2{ 
+    text-shadow: 0px 0px 10px #510080;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ae4bff;
+}
+
+.us2 p{
+    font-size: 25px;
+    color: #fff;
+    margin: 40px 0%;
+    font-weight: 400;
+}
+
+.us2 img {
+    max-width: 350px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+}
+
+/*Apoia Nois*/
+
+section.apoio {
+    padding: 40px 4%;
+}
+
+section.apoio .flex{
+    display: center;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+.apoio .txt-apoio h1{
+    align-items: center;
+    margin: 24px;
+    font-size: 60px;
+    font-weight: 400;
+    color: #f5ae2a;
+    text-shadow: 0px 0px 5px #534b05;
+}
+
+.apoio .txt-apoio h2{
+    font-size: 45px;
+    margin: 20px;
+    font-weight: 400;
+    color: #f5ae2a;
+    text-shadow: 0px 0px 5px #534b05;
+}
+
+.apoio .txt-apoio h3{
+    font-size: 35px;
+    margin: 20px;
+    font-weight: 500;
+    color: #f5ae2a;
+    text-shadow: 0px 0px 6px #534b05;
+}
+
+.apoio .txt-apoio p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px;
+}
+
+.apoio .btn-corno button{
+    padding: center;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #f5ae2a;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.apoio .btn-corno button:hover{
+    box-shadow: 0px 0px 20px #81650a6b;
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+section.contato{
+    margin: 40px;
+    padding: 40px 4%;
+}
+
+section.contato .flex{
+    display: center;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: flex;
+    top: 50%;
+    left: 50%;
+}
+
+.contato .contatic h1{
+    margin: 40px;   
+    font-size: 60px;
+    font-weight: 500;
+    color: #fd0606;
+}
+
+.contato .txt-amd h2{
+    margin: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contato .btn-ctt button{
+    padding: center;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #b90000;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.contato .btn-ctt button:hover{
+    box-shadow: 0px 0px 20px #810a0a6b;
+    transform: scale(1.1);
+    transition: 0.7s;
 }
